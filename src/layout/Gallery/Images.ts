@@ -1,14 +1,14 @@
-import image01 from '@/assets/images/01.jpg';
-import image02 from '@/assets/images/02.jpg';
-import image03 from '@/assets/images/03.jpg';
-import image04 from '@/assets/images/04.jpg';
-import image05 from '@/assets/images/05.jpg';
-import image06 from '@/assets/images/06.jpg';
-import image07 from '@/assets/images/07.jpg';
-import image08 from '@/assets/images/08.jpg';
-import image09 from '@/assets/images/09.jpg';
-import image10 from '@/assets/images/10.jpg';
-import image11 from '@/assets/images/11.jpg';
+import image01 from '/images/01.jpg';
+import image02 from '/images/02.jpg';
+import image03 from '/images/03.jpg';
+import image04 from '/images/04.jpg';
+import image05 from '/images/05.jpg';
+import image06 from '/images/06.jpg';
+import image07 from '/images/07.jpg';
+import image08 from '/images/08.jpg';
+import image09 from '/images/09.jpg';
+import image10 from '/images/10.jpg';
+import image11 from '/images/11.jpg';
 
 const images = [
   /* 이미지 경로를 리스트로 저장 */
