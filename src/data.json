@@ -23,11 +23,11 @@
         "parents": [
           {
             "relation": "아버지",
-            "name": "황아빠"
+            "name": "강태선"
           },
           {
             "relation": "어머니",
-            "name": "이엄마"
+            "name": "김숙자"
           }
         ]
       }
@@ -72,13 +72,13 @@
           "tossAccount": ""
         },
         {
-          "name": "황아빠",
+          "name": "강태선",
           "relation": "아버지",
           "bank": "농협",
           "account": "123-45-678901"
         },
         {
-          "name": "이엄마",
+          "name": "김숙자",
           "relation": "어머니",
           "bank": "농협",
           "account": "123-45-678901"
