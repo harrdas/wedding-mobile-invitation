@@ -12,7 +12,7 @@ import Location from '@/layout/Location/Location.tsx';
 import Main from '@/layout/Main/Main.tsx';
 
 function App() {
-  const ncpClientId = import.meta.env.NAVERMAPS_CLIENT_ID;
+  const ncpClientId = import.meta.env.VITE_APP_NAVERMAPS_CLIENT_ID;
   const [isVisible, setIsVisible] = useState(false);
   const galleryRef = useRef(null);
 
