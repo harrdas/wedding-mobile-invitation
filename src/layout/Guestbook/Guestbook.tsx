@@ -1,6 +1,7 @@
 import styled from '@emotion/styled';
 import CommentForm from './CommentForm.tsx';
 import { Heading2 } from '@/components/Text.tsx';
+import GuestbookList from '@/layout/Guestbook/CommentList.tsx';
 
 const Guestbook = () => {
   return (
@@ -11,6 +12,7 @@ const Guestbook = () => {
         결혼식 하루 뒤, 신랑 신부에게 전달됩니다.
       </Heading2>
       <CommentForm />
+      <GuestbookList />
     </GuestBookWrapper>
   );
 };
