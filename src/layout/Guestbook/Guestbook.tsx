@@ -6,7 +6,7 @@ import GuestbookList from '@/layout/Guestbook/CommentList.tsx';
 const Guestbook = () => {
   return (
     <GuestBookWrapper>
-      <Heading2>메시지를 남겨주세요.</Heading2>
+      <Heading2>축하의 메시지를 남겨주세요.</Heading2>
       <CommentForm />
       <GuestbookList />
     </GuestBookWrapper>
