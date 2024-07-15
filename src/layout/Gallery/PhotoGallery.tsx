@@ -10,8 +10,12 @@ const PhotoGallery = () => {
     height: '150px',
   };
 
+  const options = {
+    zoom: false,
+  };
+
   return (
-    <Gallery>
+    <Gallery options={options}>
       <div
         style={{
           display: 'grid',
@@ -25,8 +29,8 @@ const PhotoGallery = () => {
               cropped
               original={image.source}
               thumbnail={image.source}
-              width="1280"
-              height="1920">
+              width={image.isHorizontal ? 1920 : 1280}
+              height={image.isHorizontal ? 1280 : 1920}>
               {({ ref, open }) => (
                 <img
                   style={smallItemStyles}

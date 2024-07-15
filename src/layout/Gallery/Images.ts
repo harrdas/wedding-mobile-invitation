@@ -39,7 +39,7 @@ const images = [
   { alt: 'image10', source: image10 },
   { alt: 'image11', source: image11 },
   { alt: 'image12', source: image12 },
-  { alt: 'image13', source: image13 },
+  { alt: 'image13', source: image13, isHorizontal: true },
   { alt: 'image14', source: image14 },
   { alt: 'image15', source: image15 },
   { alt: 'image16', source: image16 },
