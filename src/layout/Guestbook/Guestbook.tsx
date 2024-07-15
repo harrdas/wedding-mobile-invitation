@@ -20,4 +20,10 @@ const GuestBookWrapper = styled.div`
   flex-direction: column;
   gap: 8px;
   margin-bottom: 50px;
+
+  width: 100%;
+
+  @media (min-width: 500px) {
+    width: 80%;
+  }
 `;
