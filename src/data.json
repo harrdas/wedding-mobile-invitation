@@ -36,37 +36,12 @@
   },
   "hostInfo": [
     {
-      "host": "신랑측 🤵",
-      "accountInfo": [
-        {
-          "name": "박천희",
-          "relation": "신랑",
-          "bank": "신한 은행",
-          "account": "110-285-547047",
-          "kakaopayAccount": "https://qr.kakaopay.com/Ej7mHp7cc",
-          "tossAccount": "https://toss.me/harrdas"
-        },
-        {
-          "name": "박강우",
-          "relation": "아버지",
-          "bank": "농협",
-          "account": "123-45-678901"
-        },
-        {
-          "name": "최원영",
-          "relation": "어머니",
-          "bank": "농협",
-          "account": "123-45-678901"
-        }
-      ]
-    },
-    {
       "host": "신부측 👰‍♀️",
       "accountInfo": [
         {
           "name": "강세린",
           "relation": "신부",
-          "bank": "신한 은행",
+          "bank": "신한은행",
           "account": "110-356-790103",
           "kakaopayAccount": "",
           "tossAccount": ""
@@ -74,7 +49,7 @@
         {
           "name": "강태선",
           "relation": "아버지",
-          "bank": "우리 은행",
+          "bank": "우리은행",
           "account": "1002-331-251130"
         },
         {
@@ -82,6 +57,31 @@
           "relation": "어머니",
           "bank": "농협",
           "account": "123-45-678901"
+        }
+      ]
+    },
+    {
+      "host": "신랑측 🤵",
+      "accountInfo": [
+        {
+          "name": "박천희",
+          "relation": "신랑",
+          "bank": "신한은행",
+          "account": "110-285-547047",
+          "kakaopayAccount": "https://qr.kakaopay.com/Ej7mHp7cc",
+          "tossAccount": "https://toss.me/harrdas"
+        },
+        {
+          "name": "박강우",
+          "relation": "아버지",
+          "bank": "신한은행",
+          "account": "110-490-390290"
+        },
+        {
+          "name": "최원영",
+          "relation": "어머니",
+          "bank": "신한은행",
+          "account": "110-490-390840"
         }
       ]
     }

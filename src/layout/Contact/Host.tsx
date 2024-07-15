@@ -8,8 +8,8 @@ const Host = () => {
   return (
     <>
       <HostContainer>
-        <HostInfo person={groom} />
         <HostInfo person={bride} />
+        <HostInfo person={groom} />
       </HostContainer>
     </>
   );
