@@ -43,8 +43,8 @@
           "relation": "신부",
           "bank": "신한은행",
           "account": "110-356-790103",
-          "kakaopayAccount": "",
-          "tossAccount": ""
+          "kakaopayAccount": "https://qr.kakaopay.com/Ej8Zs6MYG",
+          "tossAccount": "https://toss.me/selinkang"
         },
         {
           "name": "강태선",
