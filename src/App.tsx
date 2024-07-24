@@ -4,12 +4,14 @@ import { Heading1 } from '@/components/Text.tsx';
 import Wrapper from '@/components/Wrapper.tsx';
 import Account from '@/layout/Account/Account.tsx';
 import Container from '@/layout/Container.tsx';
+import DressCode from '@/layout/DressCode/DressCode';
 import FloatingBar from '@/layout/FloatingBar/FloatingBar.tsx';
 import GalleryWrap from '@/layout/Gallery/GalleryWrap.tsx';
 import Guestbook from '@/layout/Guestbook/Guestbook.tsx';
 import Invitation from '@/layout/Invitation/Invitation.tsx';
 import Location from '@/layout/Location/Location.tsx';
 import Main from '@/layout/Main/Main.tsx';
+import Schedule from '@/layout/Schedule/Schedule';
 
 function App() {
   const ncpClientId = import.meta.env.VITE_APP_NAVERMAPS_CLIENT_ID;
@@ -45,6 +47,14 @@ function App() {
         <Wrapper>
           <Heading1>모시는 글</Heading1>
           <Invitation />
+        </Wrapper>
+        <Wrapper>
+          <Heading1>위치 및 시간</Heading1>
+          <Schedule />
+        </Wrapper>
+        <Wrapper>
+          <Heading1>드레스 코드</Heading1>
+          <DressCode />
         </Wrapper>
         <Wrapper ref={galleryRef}>
           <Heading1>Gallery</Heading1>
