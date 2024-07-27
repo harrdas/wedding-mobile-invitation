@@ -15,9 +15,7 @@ const GalleryWrap = () => {
         {!isMoreView && <WhiteGradientOverlay />}
         <PhotoGallery />
       </ImageMoreWrap>
-      {!isMoreView && (
-        <PlusButton onClick={onClickImageMoreViewButton}>더보기</PlusButton>
-      )}
+      {!isMoreView && <PlusButton onClick={onClickImageMoreViewButton}>더 보기</PlusButton>}
     </ContentsWrap>
   );
 };
@@ -48,14 +46,11 @@ const WhiteGradientOverlay = styled.div`
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(
-    rgba(255, 255, 255, 0) 0%,
-    rgb(255, 255, 255) 90%
-  );
+  background: linear-gradient(rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 90%);
 `;
 
 const PlusButton = styled.div`
-  width: 100%;
+  width: 80%;
   box-sizing: border-box;
   padding: 6px 12px;
   font-size: 1rem;
