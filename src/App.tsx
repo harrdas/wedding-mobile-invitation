@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import { NavermapsProvider } from 'react-naver-maps';
-import { Heading1 } from '@/components/Text.tsx';
+import { Caption, Heading1 } from '@/components/Text.tsx';
 import Wrapper from '@/components/Wrapper.tsx';
 import Account from '@/layout/Account/Account.tsx';
 import Container from '@/layout/Container.tsx';
@@ -62,6 +62,13 @@ function App() {
         </Wrapper>
         <Wrapper>
           <Heading1>마음 전하실 곳</Heading1>
+          <Caption textAlign="center">
+            갤러리에서 결혼식을 진행함에 따라
+            <br />
+            축의금을 계좌 이체로 받고자 합니다.
+            <br />
+            마음 전하실 분께서는 송금 부탁드립니다.
+          </Caption>
           <Account />
         </Wrapper>
         <Wrapper>
