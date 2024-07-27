@@ -12,7 +12,7 @@ const Address = () => {
         return (
           <Way key={title}>
             <PointTitle>{title}</PointTitle>
-            <Caption>{desc}</Caption>
+            <Caption textAlign="center">{desc}</Caption>
           </Way>
         );
       })}
@@ -33,5 +33,5 @@ const WayWrapper = styled.div`
 const Way = styled.div`
   display: flex;
   flex-direction: column;
-  text-align: left;
+  text-align: center;
 `;

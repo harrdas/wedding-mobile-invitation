@@ -18,7 +18,7 @@ const images = [
   { alt: 'image04', source: image04 },
   { alt: 'image05', source: image05 },
   { alt: 'image06', source: image06, isHorizontal: true },
-  { alt: 'image07', source: image07 },
+  { alt: 'image07', source: image07, isHorizontal: true },
   { alt: 'image08', source: image08, isHorizontal: true },
   { alt: 'image09', source: image09 },
   { alt: 'image10', source: image10 },

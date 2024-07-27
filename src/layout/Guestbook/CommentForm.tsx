@@ -51,7 +51,7 @@ const CommentForm = () => {
 const FormWrapper = styled.form`
   display: flex;
   flex-direction: column;
-  gap: 2px;
+  gap: 4px;
   overflow: visible;
   align-items: center;
 `;
@@ -67,6 +67,10 @@ const NameInput = styled.input`
   border: 1px solid #ccc;
   font-family: inherit;
   font-weight: 300;
+
+  &::placeholder {
+    padding-left: 4px;
+  }
 `;
 
 const MessageInput = styled.textarea`
@@ -82,6 +86,10 @@ const MessageInput = styled.textarea`
   resize: none;
   font-family: inherit;
   font-weight: 300;
+
+  &::placeholder {
+    padding-left: 4px;
+  }
 `;
 
 const SubmitButton = styled.button`
