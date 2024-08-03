@@ -51,6 +51,7 @@ function App() {
         <Wrapper>
           <Heading1>위치 및 시간</Heading1>
           <Schedule />
+          <Caption textAlign="center">※ 축하 화환은 정중히 사양합니다.</Caption>
         </Wrapper>
         <Wrapper>
           <Heading1>드레스 코드</Heading1>
